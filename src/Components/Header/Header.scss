@@ -1,0 +1,44 @@
+.header {
+  margin: 0 auto;
+  background-color: #f1f0ee;
+
+  &-wrapp {
+    justify-content: space-between;
+    width: 1064px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+  }
+
+  &_right {
+    display: flex;
+    align-items: center;
+  }
+  &-item {
+    margin-right: 40px;
+  }
+
+  &-list {
+    list-style: none;
+    display: flex;
+  }
+
+  &-link {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  &-btn {
+    width: 90px;
+    height: 40px;
+    border-radius: 100px;
+    border: solid 2px #e5e0d4;
+    opacity: 0px;
+    background-color: #e5e0d4;
+  }
+}

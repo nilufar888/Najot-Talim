@@ -1,0 +1,38 @@
+.hero1 {
+  width: 1064px;
+  margin: 0 auto;
+  display: flex;
+
+  &__top--items {
+    display: flex;
+    margin: 0;
+    margin-left: 100px;
+  }
+
+  &__top--item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: -5px;
+  }
+
+  &__text {
+    height: 22px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #c4c4c4;
+  }
+
+  &__list__item {
+    width: 1064px;
+  }
+  &__pic {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+}

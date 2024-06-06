@@ -1,0 +1,56 @@
+.wrapp1 {
+  width: 1064px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+
+  &__top {
+    &--list {
+      display: flex;
+    }
+
+    &--item {
+      margin: 0;
+      margin-left: 50px;
+    }
+    &__top__items {
+      width: 235px;
+      display: flex;
+    }
+
+    &__list--item {
+      display: flex;
+    }
+    &--text {
+      width: 118px;
+      height: 24px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #ff7a00;
+    }
+    &--head {
+      width: 247px;
+      height: 64px;
+      font-family: Manrope;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+    &--texts {
+      width: 400px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #81755c;
+    }
+  }
+}

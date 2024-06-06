@@ -1,0 +1,91 @@
+.hero {
+  //   background-color: rgba(241, 240, 238, 1);
+  color: rgb(0, 0, 0, 1);
+
+  &__header {
+    width: 1230px;
+    height: 700px;
+    background-image: url(../../Assets/Images/heroboy1.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  &-wrapp {
+    margin-top: 100px;
+  }
+
+  &-head {
+    width: 432px;
+    margin-top: 0 auto;
+  }
+
+  &-left {
+    width: 432px;
+    height: 456px;
+    margin-top: 130px;
+    margin-left: 100px;
+  }
+
+  &-text {
+    margin-top: 50px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ba8d5b;
+  }
+
+  &-span {
+    color: #ba8d5b;
+    text-decoration: underline #ba8d5b;
+  }
+
+  &-texts {
+    width: 255px;
+    height: 50px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-right: 40px;
+  }
+  &-heads {
+    width: 175px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000000;
+  }
+
+  &-btn {
+    width: 212px;
+    height: 56px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: solid 2px #7ad111;
+    background-color: #7ad111;
+    color: white;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+.img {
+  transform: translateX(500px);
+  background-color: red;
+}

@@ -1,0 +1,108 @@
+.pend1 {
+  width: 1064px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+
+  &__left--list {
+    width: 632px;
+    height: 360px;
+    border-radius: 4px 0px 0px 0px;
+    background: conic-gradient(
+      from 270deg at 100% 100%,
+      #f62d2d 0deg,
+      #6a00ff 98.68deg,
+      #ff0077 360deg
+    );
+    margin-top: 20px;
+  }
+
+  &__left {
+    display: flex;
+  }
+  &__left--head {
+    width: 246px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin-left: 135px;
+    color: #ffffff;
+  }
+  &__left--text {
+    width: 289px;
+    height: 92px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 135px;
+    margin-top: 75px;
+  }
+  &__left--btn {
+    width: 212px;
+    height: 56px;
+    border-radius: 100px;
+    border: solid 2px #fff;
+    margin-left: 135px;
+    color: #000000;
+  }
+  &__right--list {
+    width: 632px;
+    height: 360px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+
+  &__right {
+    display: flex;
+  }
+  &__right--head {
+    width: 246px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+  }
+  &__right--text {
+    width: 173px;
+    height: 44px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 75px;
+  }
+  &__right--btn {
+    width: 186spx;
+    height: 56px;
+    border-radius: 100px;
+    background-color: #c3e0a0;
+    border: solid 2px#c3e0a0;
+    margin-left: 135px;
+    color: #000000;
+  }
+  &__right__text {
+    width: 228px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+    margin-top: 25px;
+    color: #ba8d5b;
+  }
+}

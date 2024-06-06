@@ -1,0 +1,221 @@
+.wrapp {
+  width: 1064px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  &__left {
+    &--item {
+      width: 520px;
+      height: 456px;
+      background-image: url("../../Assets/Images/wrappbg.png");
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      margin-top: 30px;
+      border-radius: 5px;
+    }
+
+    &--list {
+      width: 318px;
+      height: 220px;
+      transform: translateY(200px);
+      margin-left: 30px;
+    }
+
+    &--text {
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(255, 122, 0, 1);
+    }
+
+    &--head {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(0, 0, 0, 1);
+    }
+
+    &--title {
+      width: 318px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(129, 117, 92, 1);
+      padding-bottom: 20px;
+    }
+
+    &--link {
+      text-decoration: none;
+      color: black;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 21.86px;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+
+    &--item2 {
+      width: 520px;
+      height: 160px;
+      display: flex;
+      background-image: url("../../Assets/Images/wrappbg1.png");
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    &--left {
+      margin-left: 30px;
+      margin-top: 15px;
+      margin-right: 20px;
+    }
+
+    &--heading {
+      width: 208px;
+      font-family: Manrope;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+
+    &--right {
+      margin-top: 20px;
+    }
+
+    &--date {
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: right;
+      color: rgba(255, 122, 0, 1);
+      margin-left: 90px;
+    }
+
+    &--clock {
+      font-family: Manrope;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.02em;
+      text-align: right;
+      color: rgba(255, 122, 0, 1);
+      margin-left: 10px;
+    }
+
+    &--date2 {
+      margin-top: 0;
+    }
+  }
+
+  .wrapp__right {
+    &-item {
+      width: 520px;
+      height: 456px;
+      background-image: url("../../Assets/Images/wrappright.png");
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      margin-top: -60px;
+      border-radius: 5px;
+    }
+    &-list {
+      width: 318px;
+      height: 220px;
+      transform: translateY(100px);
+      margin-left: 30px;
+    }
+    &-texts {
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(255, 122, 0, 1);
+    }
+
+    &-heads {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(0, 0, 0, 1);
+    }
+    &-title {
+      width: 318px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: rgba(129, 117, 92, 1);
+      padding-bottom: 20px;
+    }
+
+    &-link {
+      text-decoration: none;
+      color: black;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 21.86px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      transform: translateY(50px);
+    }
+
+    &-item2 {
+      width: 529.44px;
+      height: 308px;
+      border-radius: 4px 0px 0px 0px;
+      background-image: url("../../Assets/Images/Group\ 34512.png");
+      background-position: center;
+      background-size: auto;
+      background-repeat: no-repeat;
+      margin-top: -65px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    &-text {
+      width: 118px;
+      height: 24px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #ff7a00;
+    }
+
+    &-list2 {
+      width: 318px;
+      height: 220px;
+      transform: translateY(30px);
+      margin-left: 30px;
+    }
+  }
+}

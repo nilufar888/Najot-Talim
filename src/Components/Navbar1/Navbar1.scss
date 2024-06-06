@@ -1,0 +1,70 @@
+.navbar1 {
+  width: 1064px;
+  margin: 0;
+  padding: 0 20px;
+  justify-content: space-between;
+
+  &--head {
+    width: 716px;
+    height: 44px;
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.71px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+  }
+  &--text {
+    width: 716px;
+    height: 140px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+  }
+
+  &--heads {
+    width: 657px;
+    height: 96px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    background-color: #f9f9f9;
+    margin-left: 75px;
+  }
+  &__text {
+    width: 716px;
+    height: 28px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+  }
+
+  &__item {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-left: 85px;
+  }
+
+  &__list1 {
+    width: 668px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    list-style: disc;
+    margin-left: 75px;
+  }
+}

@@ -1,0 +1,52 @@
+.sidebar {
+  width: 1064px;
+  margin: 0;
+}
+.sidebar__top--list {
+  display: flex;
+  margin-left: 55px;
+}
+
+.sidebar__top__head {
+  width: 291px;
+  height: 28px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-left: 50px;
+}
+
+.sidebar__top--heads {
+  width: 305px;
+  height: 22px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  margin-left: 35px;
+  margin-top: -20px;
+}
+
+.sidebar__top--text {
+  width: 504px;
+  height: 40px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  margin-left: 10px;
+}
+
+.sidebar__top--pend {
+  width: 716px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #ebebeb;
+}
+.sidebar__pic {
+  margin-top: 13px;
+  margin-left: 15px;
+}

@@ -1,0 +1,133 @@
+.footer {
+  // height: 460px;
+  background: #f1f0ee;
+  padding: 0 20px;
+  margin-top: 20px;
+
+  &--pend {
+    width: 1064px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+
+  &--heads {
+    width: 144px;
+    height: 100px;
+    font-family: Manrope;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000000;
+  }
+
+  // &__right--item{}
+  // &__right--head{}
+  &__right--items--item {
+    list-style: none;
+  }
+
+  &__items--link {
+    width: 95px;
+    height: 175px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    // color: #81755c;
+  }
+
+  &__items--link {
+    list-style: none;
+  }
+
+  &--bottom {
+    width: 1064px;
+    display: flex;
+  }
+
+  &__right--list {
+    display: flex;
+    width: 836px;
+    justify-content: space-between;
+    padding-left: 20;
+  }
+
+  &__items {
+    padding-left: 0;
+  }
+
+  &--hr {
+    width: 836px;
+    height: 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #81755c4d;
+  }
+
+  &--pic {
+    width: 62.38px;
+    height: 42px;
+    margin-left: 25px;
+    margin-top: 35px;
+  }
+
+  &--bottom--head {
+    width: 247px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-left: 95px;
+  }
+
+  &--bottom--heads {
+    width: 164px;
+    height: 20px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin-left: 75px;
+  }
+
+  &--bottom--text {
+    width: 247px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #81755c;
+    margin-left: 95px;
+  }
+
+  &--bottom__link {
+    width: 212px;
+    height: 59px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin-left: 95px;
+  }
+
+  &__bottom--list {
+    display: flex;
+  }
+
+  &__bootom--pic {
+    width: 132px;
+    height: 24px;
+    margin-left: 75px;
+  }
+}

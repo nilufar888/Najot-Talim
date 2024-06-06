@@ -1,0 +1,47 @@
+.content1 {
+  width: 1064px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-between;
+
+  &-head {
+    width: 211px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  &__head {
+    width: 214px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+}
+
+.contant1--text {
+  width: 250px;
+  height: 126px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.content1__list {
+  display: flex;
+}
+.content1__item--items {
+  width: 315px;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0 20px;
+}

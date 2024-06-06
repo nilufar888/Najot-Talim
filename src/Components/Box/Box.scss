@@ -1,0 +1,50 @@
+.box {
+  width: 1064px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.box__in {
+  width: 717px;
+  height: 252px;
+  background-color: #f9f9f9;
+  border-radius: 4px 0px 0px 0px;
+  background-image: url("../../Assets/Images/sertifikat.png");
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.box__item {
+  display: flex;
+}
+
+.box__item--head {
+  width: 142px;
+  height: 28px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-left: 35px;
+}
+.box_head {
+  width: 87px;
+  height: 28px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-left: 65px;
+}
+.box_item--text {
+  width: 157px;
+  height: 48px;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  margin-left: 25px;
+}
